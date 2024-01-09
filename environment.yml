@@ -1,0 +1,23 @@
+name: geoenv
+channels:
+  - conda-forge
+dependencies:
+# Python
+  - python=3.10
+# JupyterLab
+  - jupyterlab
+# Python scientific libraries
+  - numpy
+  - matplotlib
+  - xarray
+# Geospatial libraries
+  - rasterio>=1.3
+  - geopandas
+  - rioxarray
+  - xarray-spatial
+  - earthpy
+  - descartes # necessary for geopandas plotting
+  - pystac-client
+  - python-graphviz
+  - geopandas
+  - lonboard
